@@ -12,8 +12,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
-<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/d140c5d3e4ee73ce7ea81ab77/7bdb7de7098af75555a2be6ad.js");</script>
-
 </head>
 <body>
   
@@ -105,7 +103,7 @@
             <h4><span>Web Design</span></h4>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, odit.</p>
             <!-- check the site 1 -->
-            <a href="https://wolf1131.github.io/floating/" target="_blank"><i class='bx bx-link-external' ></i></a>
+            <a href="https://wolf1131portfolio.netlify.app/" target="_blank"><i class='bx bx-link-external' ></i></a>
         </div>
     </div>
         <div class="portfolio-box">
@@ -113,23 +111,23 @@
             <div class="portfolio-layer">
                 <h4><span>Web Design</span></h4>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, odit.</p>
-                <a href="https://wolf1131.github.io/work2/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                <a href="https://wolf1131.github.io/floating/" target="_blank"><i class='bx bx-link-external' ></i></a>
             </div>
     </div>
     <div class="portfolio-box">
         <img src="portfolio3.jpg" class="hey" alt="">
         <div class="portfolio-layer">
             <h4><span>Web Design</span></h4>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, odit.</p>
-            <a href="https://wolf1131.github.io/work3/" target="_blank"><i class='bx bx-link-external' ></i></a>
+            <p>creating visually stunning and high-performing landing-page using HTML, CSS, JavaScript.</p>
+            <a href="https://wolf1131.github.io/pepsi-landing-page/" target="_blank"><i class='bx bx-link-external' ></i></a>
         </div>
         </div>
         <div class="portfolio-box">
             <img src="portfolio4.jpg" class="hey" alt="">
             <div class="portfolio-layer">
                 <h4><span>Web Design</span></h4>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, odit.</p>
-                <a href="#"><i class='bx bx-link-external' ></i></a>
+                <p>creating engaging and responsive websites using HTML, CSS, JavaScript, and React.</p>
+                <a href="https://wolf1131.github.io/Halloween-Parallax/" target="_blank"><i class='bx bx-link-external' ></i></a>
             </div>
         </div>
             <div class="portfolio-box">
@@ -137,7 +135,7 @@
                 <div class="portfolio-layer">
                     <h4><span>Web Design</span></h4>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, odit.</p>
-                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                    <a href="#" target="_blank"><i class='bx bx-link-external' ></i></a>
                 </div>
             </div>
                 <div class="portfolio-box">
@@ -145,7 +143,7 @@
                     <div class="portfolio-layer">
                         <h4><span>Web Design</span></h4>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, odit.</p>
-                        <a href="#"><i class='bx bx-link-external'></i></a>
+                        <a href="https://wolf1131.github.io/work2/" target="_blank"><i class='bx bx-link-external'></i></a>
                     </div>
 </div>        
 </section>
@@ -154,16 +152,16 @@
 <section class="contact" id="contact">
     <h2 class="heading">Contact <span>Me!</span></h2>
 
-    <form action="#">
-<div class="input-box">
-    <input type="text" placeholder="Full Name">
-    <input type="email" placeholder="Email Address">
+    <form>
+<div class="input-box" id="contact-form">
+    <input type="text" placeholder="Full Name" name="user_name">
+    <input type="email" placeholder="Email Address" name="user_email">
 </div>
 <div class="input-box">
-    <input type="number" placeholder="Mobile number">
-    <input type="text" placeholder="Email Subject">
+    <input type="number" placeholder="Mobile number" name="user_number">
+    <input type="text" placeholder="Email Subject" name="user_emailSubject">
 </div>
-<textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+<textarea name="user_project" id="contact-message" cols="30" rows="10" placeholder="Your Message"></textarea>
 <input type="submit" value="Send Message" class="btn">
    </form>
 </section>
@@ -183,7 +181,8 @@
 <!-- scroll reveal -->
 <script src="https://unpkg.com/scrollreveal"></script>
 
-
+<!-- email js  -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 <!-- custom js -->
 <script src="script.js"></script>
 <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
